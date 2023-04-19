@@ -1,0 +1,69 @@
+.bg-body {
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bg-body {
+      background-size: auto 100%;
+      background-position: center top;
+      background-size: cover;
+    }
+  }
+  
+
+  /* Mobile view styles */
+@media screen and (max-width: 576px) {
+    .container-fluid {
+      max-width: 100%;
+      padding: 10px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .image-wrapper {
+    position: relative;
+  }
+  
+  .image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-wrapper button {
+    position: absolute;
+    bottom: -20px; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+
+  .hero-intro-message {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 70%;
+    padding-bottom: 0;
+  }
