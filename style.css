@@ -102,4 +102,5 @@
 
   .id-affiliate a{
     color: #333;
+    list-style-type: none;
   }
