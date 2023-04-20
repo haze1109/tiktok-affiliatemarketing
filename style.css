@@ -32,16 +32,22 @@
     .support{
      padding: 0 auto;
     }
-    .support-container {
-     position: relative;
-    }
-
+  
     .link-button {
       margin-left: 100px;
     }
   
   }
+
+  .support-container {
+    
+  }
   
+  .link-button {
+    margin-left: 20px;
+  }
+
+
 
   .container-fluid {
     padding: 0;
