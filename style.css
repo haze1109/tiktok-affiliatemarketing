@@ -99,3 +99,7 @@
   .id-affiliate {
     font-size: 12px;
   }
+
+  .id-affiliate a{
+    color: #333;
+  }
