@@ -104,3 +104,8 @@
     color: #333;
     list-style-type: none;
   }
+
+  .tiktok-logo {
+    width: 30px;
+    margin-left: 5px;
+  }
