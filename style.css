@@ -5,6 +5,48 @@
 }
 
 
+.caro-intro {
+  background-image: url('img/tiktoklogo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 280px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    max-height: 300px;
+  }
+  .caro-intro {
+    background-size: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-item img {
+    max-height: 200px;
+  }
+  .caro-intro {
+    background-size: 60%;
+  }
+  .carousel-item img {
+    width: 300px;
+    height: 160px;
+    border-radius: 5%;
+    object-fit: cover;
+  }
+  
+}
+
+
+
 @media screen and (max-width: 768px) {
     .bg-body {
       background-size: auto 100%;
@@ -40,6 +82,9 @@
     .id-affiliate li{
       padding-top: 10px;
     }
+
+    
+      
   
   }
 
