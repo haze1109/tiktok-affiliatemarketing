@@ -207,7 +207,7 @@
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff; 
+    color: black; 
     font-weight: 500;
     text-align: start;
   }
@@ -220,4 +220,61 @@
 
   .tes-container {
     padding-left: 10px;
+  }
+
+
+  /*testimonials*/
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 50px;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .statement {
+    margin-right: 400px;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 170px;
+    justify-content: center;
+    filter:drop-shadow(0 0 20px #333);
+    color: #fff;
+    font-weight: 500;
+  }
+
+
+
+  @media (max-width: 767px) {
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+    
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .statement {
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 0;
+      justify-content: center;
+      color: #333;
+      background-color: #fff;
+      filter:drop-shadow(0 0 40px #333);
+    }
+  
   }
