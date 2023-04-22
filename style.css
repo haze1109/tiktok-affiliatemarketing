@@ -94,7 +94,18 @@
       padding-top: 10px;
     }
 
-    
+    .ul-two li{
+      color: #fff;
+     
+    }
+      
+    .ul-two a{
+     text-decoration: none;
+     
+    }
+    .ul-one a{
+      text-decoration: none;
+    }
       
   
   }
