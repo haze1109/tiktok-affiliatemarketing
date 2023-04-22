@@ -22,10 +22,16 @@
 
 @media screen and (max-width: 768px) {
   .carousel-item img {
-    max-height: 300px;
+    width: 300px;
+    height: 160px;
+    border-radius: 5%;
+    object-fit: cover;
   }
   .caro-intro {
-    background-size: 50%;
+    background-image: url('img/tiktoklogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 
@@ -34,7 +40,10 @@
     max-height: 200px;
   }
   .caro-intro {
-    background-size: 60%;
+    background-image: url('img/tiktoklogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   .carousel-item img {
     width: 300px;
