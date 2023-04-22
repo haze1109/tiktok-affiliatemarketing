@@ -144,11 +144,9 @@
 
   .support{
     justify-content: center;
-    margin-bottom: 140px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
-
-
-
 
   .id-affiliate {
     font-size: 12px;
