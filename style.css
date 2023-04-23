@@ -312,6 +312,20 @@
       background-color: #fff;
       text-align: center;
     }
+    .hr {
+      font-weight: 600;
+      font-size: 16px;
+      color: #333;
+      justify-content: start;
+    
+    }
+    .hr li {
+    margin-bottom: 5px;
+      
+    }
   
-  
+  }
+
+  .hr {
+    font-weight: 600;
   }
