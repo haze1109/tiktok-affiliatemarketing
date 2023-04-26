@@ -327,6 +327,7 @@
       margin: 0 auto;
       padding: 0 auto;
     }
+
   
   }
 
@@ -339,4 +340,27 @@
     margin-left: 10px;
   }
 
+ .tutorial-link  {
+  text-align: start;
+  margin: 0 auto;
+  color: #fff;
+ }
+
+ .tutorial-link-p {
  
+  color: #fff;
+ }
+
+
+@media ( max-width: 767px) {
+  .tutorial-link  {
+    text-align: start;
+    margin: 0 auto;
+    color: #333;
+   }
+
+   .tutorial-link-p  {
+   
+    color: #333;
+   }
+}
