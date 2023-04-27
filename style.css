@@ -363,4 +363,19 @@
    
     color: #333;
    }
+
+   .message {
+    text-align: start;
+    padding : 0 auto;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 30px;
+   }
 }
+.message {
+  text-align: start;
+  padding : 0 auto;
+  margin: 0 auto;
+  color: black;
+  padding-bottom: 30px;
+ }
