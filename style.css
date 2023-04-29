@@ -400,3 +400,13 @@
   justify-content: center;
   text-align: center;
  }
+
+
+ .g-signin2 {
+  display: inline-block;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
