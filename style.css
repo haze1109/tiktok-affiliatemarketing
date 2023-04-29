@@ -108,9 +108,8 @@
       text-decoration: none;
      
     }
-    .ul-one ul, li{
+    .ul-one{
       list-style-type: none;
-      margin-bottom: 1px;
     }
       
   
