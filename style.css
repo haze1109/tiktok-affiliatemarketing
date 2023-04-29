@@ -372,6 +372,9 @@
     color: #fff;
     padding-bottom: 30px;
    }
+   .footer-list a{
+    color: green;
+   }
 }
 .message {
   text-align: start;
@@ -387,4 +390,10 @@
   font-weight: 500;
   background-color: coral;
   justify-content: center;
+ }
+
+ .footer-list a{
+  color: green;
+  justify-content: center;
+  text-align: center;
  }
