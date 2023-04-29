@@ -116,7 +116,10 @@
   
   }
 
-  
+  .ul-one ul, li{
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
   
   .link-button {
     margin-left: 20px;
