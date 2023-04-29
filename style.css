@@ -59,20 +59,12 @@
 
 
 @media screen and (max-width: 768px) {
-    /* .bg-body {
-      background-size: auto 100%;
-      background-position: center top;
-      background-size: cover;
-      background-repeat: no-repeat;
-    } */
-
-    .bg-body {
-      background-image: url('img/bg1.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
+  .bg-body {
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  
-  }
+}
   
 
   /* Mobile view styles */
@@ -100,6 +92,7 @@
 
     .id-affiliate li{
       padding-top: 10px;
+      color: green;
     }
 
     .ul-two li{
@@ -113,6 +106,11 @@
     }
     .ul-one a{
       text-decoration: none;
+     
+    }
+    .ul-one ul, li{
+      list-style-type: none;
+
     }
       
   
