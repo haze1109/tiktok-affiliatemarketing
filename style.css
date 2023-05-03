@@ -375,6 +375,7 @@
    .footer-list a{
     color: green;
    }
+
 }
 .message {
   text-align: start;
@@ -410,3 +411,14 @@
   padding: 10px 20px;
   cursor: pointer;
 }
+
+.pt-1 {
+  color: #fff;
+}
+@media ( max-width: 767px) {
+  .pt-1 {
+    color: #333;
+
+}
+}
+
