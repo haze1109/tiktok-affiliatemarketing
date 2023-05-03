@@ -261,9 +261,7 @@
     .video-container {
       position: relative;
       width: 100%;
-      max-width: 200px;
-      margin: 0 auto;
-      padding-bottom: 0;
+     
     }
     
     .video-container video {
