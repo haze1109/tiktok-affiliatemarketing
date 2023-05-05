@@ -1,3 +1,8 @@
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
 .bg-body {
     background-image: url('img/bg1.jpg');
     background-size: cover;
@@ -152,10 +157,30 @@
     cursor: pointer;
   }
   
-
   .hero-intro-message {
-    padding-left: 10px;
-    font-size: 16px;
+    /* background-image: url(img/aboutmomi1.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box; */
+    
+    border: 1px solid black;
+    padding: 20px;
+   
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+  }
+
+  .hero-intro-message-sub {
+   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
   }
 
   .hero-image {
@@ -206,7 +231,37 @@
   }
 
   @media (max-width: 768px) {
-    
+
+    /* .parallelogram {
+      width: 200px;
+      height: 200px;
+      background: white;
+      transform: skew(15deg);
+    } */
+
+
+
+
+    .hero-intro-message {
+
+      border: 1px solid black;
+      padding: 10px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.5;
+      text-align: center;
+      color: #333;
+    }
+    .hero-intro-message-sub {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.5;
+      text-align: center;
+      color: #333;
+    }
+  
   .tes-intro {
     font-size: 14px;
     justify-content: center;
