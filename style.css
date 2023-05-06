@@ -158,11 +158,7 @@
   }
   
   .hero-intro-message {
-    /* background-image: url(img/aboutmomi1.jpg);
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-clip: padding-box; */
+   
     
     border: 1px solid black;
     padding: 20px;
@@ -232,14 +228,7 @@
 
   @media (max-width: 768px) {
 
-    /* .parallelogram {
-      width: 200px;
-      height: 200px;
-      background: white;
-      transform: skew(15deg);
-    } */
-
-
+    
 
 
     .hero-intro-message {
@@ -520,11 +509,15 @@
     max-height: 150px;
     object-fit: cover;
   }
+
+  .gc-btn a{
+    text-decoration: none;
+}
 }
 @media (min-width: 768px) {
   .card-body {
     padding: 1.25rem;
   }
- 
+
 }
 
