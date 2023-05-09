@@ -593,3 +593,17 @@
     justify-content: center;
   }
 }
+.about-img {
+  width:100%;
+  max-height: 600px;
+}
+
+@media  only screen and (max-width: 767px) {
+
+  .about-img {
+    width:100%;
+    max-height: 280px;
+    
+  }
+  
+}
