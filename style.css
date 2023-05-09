@@ -577,4 +577,19 @@
     margin-top: 710px;
   
   }
+  
+}
+@media  only screen and (max-width: 767px) {
+  .bg-intro-2 {
+    background-image: url('img/let\'s\ help\ each\ other..png');
+    background-size: auto 100%;
+    background-position: center;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
